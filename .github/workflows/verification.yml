@@ -10,10 +10,4 @@ jobs:
       - name: La balise fermante est la
         run: grep -q "</body>" index.html
       - name: La feuille de style est liee
-        run: grep -q 'href="style.css"' index.html
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+        run: grep -q 'href="style.css"' index.
